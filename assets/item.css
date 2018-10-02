@@ -2,6 +2,10 @@
 
 body{color: #333333;}
 
+/*ページ*/
+#page {
+    width:980px;
+    margin: 0 auto;}
 
 p{font-size: 14px;}
 
