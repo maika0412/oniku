@@ -51,3 +51,30 @@ p{font-size: 14px;}
     margin-bottom: 30px;
     padding-top: 15px;
     }
+
+/*ナビ*/
+
+#pageHead .localNavi{
+    border:solid #CCCCCC;
+    border-width: 1px 0;
+}
+
+#pageHead .localNavi ul{
+    margin: 0;
+    padding: 0;
+}
+
+#pageHead .localNavi ul:after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+#pageHead .localNavi ul li{
+    list-style: none;
+    width: 196px;
+    float: left;
+}
+
+
+
