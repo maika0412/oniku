@@ -2,6 +2,10 @@
 
 body{color: #333333;}
 
+/*リンク*/
+a{color:#346e80;}
+a:hover{color: #8dcde0;}
+
 /*ページ*/
 #page {
     width:980px;
