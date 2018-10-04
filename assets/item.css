@@ -108,3 +108,9 @@ p{font-size: 14px;}
     font-size: 14px;
 }
 
+/*ページ先頭*/
+.pageTop{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 30px;
+}
