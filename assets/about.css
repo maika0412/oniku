@@ -1,0 +1,82 @@
+body{color: #333333;}
+
+/*リンク*/
+a{color:#346e80;}
+a:hover{color: #8dcde0;}
+
+/*ページ*/
+#page {
+    width:980px;
+    margin: 0 auto;}
+
+p{font-size: 14px;}
+
+/*見出し*/
+.pageTitle{
+    font-size: 26px;
+    color: #346e80;
+    background-color: #F2F2E5;
+    padding: 5px 15px;
+    }
+
+#pageHead .localNavi{
+    border:solid #CCCCCC;
+    border-width: 1px 0;
+    padding: 10px 0;
+}
+
+#pageHead .localNavi ul{
+    margin: 0;
+    padding: 0;
+}
+
+#pageHead .localNavi ul:after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+#pageHead .localNavi ul li{
+    list-style: none;
+    width: 196px;
+    float: left;
+    border-left:solid 1px #CCCCCC;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+}
+
+#pageHead .localNavi ul li:first-child{
+    border-left: none;
+}
+
+/*リンク線消し*/
+/*#pageHead .localNavi ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+*/
+#pageHead .localNavi ul li a:hover{
+    background-color: #CCCCCC;
+}
+
+
+.topicPath{
+    font-size: 14px;
+}
+
+/*ページ先頭*/
+.pageTop{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.imgCenter{
+    text-align: center;
+}
+
+.textCenter{
+    text-align: center;
+}
