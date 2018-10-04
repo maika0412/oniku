@@ -45,6 +45,13 @@ p{font-size: 14px;}
     background-color:#7babab;
     padding-left: 10px;}
 
+.heading-typeD{
+    font-size: 16px;
+    border-left: solid 5px #346e80;
+    background-color:#7babab;
+    padding-left: 10px;}
+
+
     /*区切り線と余白*/
     .articleDetailHead{
     border-bottom: solid 1px #CCCCCC;
