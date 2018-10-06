@@ -61,6 +61,9 @@ p{font-size: 14px;}
     background-color: #CCCCCC;
 }
 
+.imgCenter{
+    text-align: center;
+}
 
 .topicPath{
     font-size: 14px;
