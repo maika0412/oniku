@@ -1,0 +1,134 @@
+body{color: #333333;}
+
+/*body,html{
+    background-image: url(../assets/images/top2.jpg);
+     background-position: center center;
+
+    background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+   
+    background-size: cover;
+   
+}
+*/
+h1{
+    color:#346e80;
+}
+
+/*リンク*/
+a{color:#346e80;}
+a:hover{color: #8dcde0;}
+
+/*ページ*/
+#page {
+    width:980px;
+    margin: 0 auto;}
+
+p{font-size: 14px;}
+
+/*見出し*/
+.pageTitle{
+    font-size: 26px;
+    color: #346e80;
+    background-color: #F2F2E5;
+    padding: 5px 15px;
+    }
+
+#pageHead .localNavi{
+    border:solid #CCCCCC;
+    border-width: 1px 0;
+    padding: 10px 0;
+}
+
+#pageHead .localNavi ul{
+    margin: 0;
+    padding: 0;
+}
+
+#pageHead .localNavi ul:after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+#pageHead .localNavi ul li{
+    list-style: none;
+    width: 196px;
+    float: left;
+    border-left:solid 1px #CCCCCC;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+}
+
+#pageHead .localNavi ul li:first-child{
+    border-left: none;
+}
+
+/*リンク線消し*/
+/*#pageHead .localNavi ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+*/
+#pageHead .localNavi ul li a:hover{
+    background-color: #CCCCCC;
+}
+
+/*.imgCenter{
+    text-align: center;
+}*/
+
+.topicPath{
+    font-size: 14px;
+}
+
+/*ページ先頭*/
+.pageTop{
+    font-size: 14px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+
+.textCenter{
+    text-align: center;
+}
+
+/*メインビジュアル*/
+
+/*.mainVisual{
+    position: absolute;
+}
+*/
+
+.mainVisual .mainVisualText{
+    position: absolute;
+    left: 225px;
+    bottom: 25px;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.4);
+    width: 400px;
+    padding: 15px 25px;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+}
+
+.mainVisual .mainVisualText h2
+{
+    font-size: 26px;
+    line-height: 1.231px;
+    margin: 0;
+}
+
+.mainVisual .mainVisualText p{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 0
+}
+
+img{
+    padding-top: 10px;
+}
