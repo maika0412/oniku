@@ -132,3 +132,37 @@ p{font-size: 14px;}
 img{
     padding-top: 10px;
 }
+
+/*news*/
+
+.news table{
+    width: 100%;
+}
+
+.news table tr th,td{
+    font-size: 14px;
+    line-height: 20px;
+    border-bottom: 1px dotted #346e80;
+    padding: 10px 0;
+    vertical-align: top;
+}
+
+.news table tr th {
+    white-space: nowrap;
+    padding-right: 30px;
+}
+
+.news table tr td{
+    width: 100%;
+}
+
+.news h1
+{
+    font-size: 20px;
+    border-bottom: 1px solid #346e80;
+    padding: 5px 0;
+}
+
+.news{
+    margin-top: 40px;
+}
