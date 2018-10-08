@@ -80,3 +80,45 @@ p{font-size: 14px;}
 .textCenter{
     text-align: center;
 }
+
+#copyright small{
+    font-size: 12px;
+    line-height: 1.5;
+    padding-left: 250px;
+}
+
+
+.creditUnit{
+    padding: 10px;
+    border: solid 1px #346e80;
+    width: 300px;
+}
+
+.creditUnit {
+    font-size: 12px;
+}
+
+/*map*/
+
+/*.creditUnit:afte{
+    content: "";
+    clear: both;
+   /* display: block;*/
+}
+/*
+.creditUnit .creditUnitText{
+    float: right;
+    width: 400px;
+    text-align: center;
+}
+
+/*.creditUnit .creditUnitMap{
+    float: left;
+    width: 300px;
+}
+*/
+
+div.textAbout{
+    margin: 40px;
+  
+}
