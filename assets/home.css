@@ -166,3 +166,29 @@ img{
 .news{
     margin-top: 40px;
 }
+
+/*.mainvisual ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.mainvisual ul li{
+    position: relative;
+}*/
+
+.crediUnitText:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.creditUnit .creditUnitText{
+    float: right;
+    width: 378px;
+}
+
+
+.creditUnit .creditUnitMap{
+    float: left;
+    width: 300px;
+}
